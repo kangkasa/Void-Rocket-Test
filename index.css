@@ -4,6 +4,21 @@
   align-items: baseline;
 }
 
+.planebox {
+  animation-duration: 8s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 120%;
+  }
+
+  to {
+    margin-left: -20%;
+  }
+}
+
 .plane{
   width: 300px;
   height: 100px;
